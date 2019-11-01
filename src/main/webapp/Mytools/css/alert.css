@@ -1,0 +1,64 @@
+#myconfirm-exit,#myconfirm-ok{cursor:pointer;letter-spacing:5px;font-size:20px;color:white;width:40%;line-height:30px;border:1px solid #eaeaea;border-radius:4px;text-algin:center;}
+#myconfirm-exit{background-color:#F9F9F9;color:#7C8EA4;margin-left:7%;}
+#myconfirm-ok{background-color:#82C92F;}
+.myConfim_div{background-color:white;}
+.myConfim_div_parent,.myConfim_div_parent1{position:fixed;left:0px; top:0px;right:0px; bottom:0px;background-color:darkgray;opacity:0.5;z-index:9998;}
+.myConfim_div_parent2{position:fixed;left:0px; top:0px;right:0px; bottom:0px;background-color:darkgray;opacity:0.5;z-index:10000;}
+.myconfirm-title{background-color:#82C92F;color:#fff;font-weight:bold;}
+.myConfim_close{color:#fff;width:30px;height:30px;line-height:30px;float:right;border:0px;background:transparent;font-size:25px;cursor: pointer;}
+.req{color:#ff461f;font-size:18px;margin-right:5px;}
+.pointer{cursor:pointer;}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    word-break: break-all;
+    word-wrap:break-word;
+    outline:none;
+}
+.left{float:left;}
+.right{float:right;}
+.allClear{clear:both;}
+
+a{text-decoration:none;}
+img{border:0px;}
+
+
+
+
+/*所有按钮的统一样式*/
+.add,.edit,.del,.see,.setb,.seto,.setv,.delv,.ok,.setd,.deld,.redp,.ref,.excel,.yijian,.upload{
+    border:0;
+    cursor:pointer;
+    padding:8px 15px;
+    color:#000;
+    text-indent:10px;
+    background-color:#b7fbb8;
+    background-repeat:no-repeat;
+    background-position:5px 8px;
+    margin-right:10px;
+}
+/*所有按钮浮动的样式*/
+.add:hover,.edit:hover,.del:hover,.see:hover,.setb:hover,.seto:hover,.setv:hover,.delv:hover,.ok:hover,.setd:hover,.deld:hover,.redp:hover,.ref:hover,.excel:hover,.yijian:hover,.upload:hover{
+    color:white;
+    background-color:#54A1ff;
+}
+/*所有按钮的图标*/
+.add{background-image:url(../icon/add.png);}
+.edit{background-image:url(../icon/application_edit.png);}
+.del{background-image:url(../icon/cross.png);}
+.see{background-image:url(../icon/zoom.png);}
+.setb {background-image:url(../icon/wrench.png);}
+.seto{background-image:url(../icon/wrench_orange.png);}
+.setv{background-image:url(../icon/award_star_gold_1.png);}
+.delv{background-image:url(../icon/award_star_silver_3.png);}
+.ok{background-image:url(../icon/accept.png);}
+.setd{background-image:url(../icon/tag_orange.png);}
+.deld{background-image:url(../icon/tag_pink.png);}
+.redp{background-image:url(../icon/user_red.png);}
+.ref{background-image:url(../icon/ref.png);}
+.excel{background-image:url(../icon/page_excel.png);}
+.yijian{background-image:url(../icon/lightning.png);}
+.upload{background-image:url(../icon/folder_add.png);}

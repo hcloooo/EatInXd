@@ -1,0 +1,54 @@
+
+.FenleiNew{width:218px;}
+.width218{width:218px;}
+.LanmuBor .title{font-size:14px;font-weight:bold;color:white;cursor:pointer;}
+.LanmuBor .title .english{font-weight:400;color:#0F51cf;}
+.LanmuBor .title a .more{font-size:13px;float:right;color:#fff;}
+.ProductGongBor div a .more{font-size:12px;float:right;color:#000;margin-top:3px;}
+.ProductGongBor a .more{font-size:12px;float:right;color:#000;margin-top:3px;}
+.Lanmu{height:28px;background-color:#144B83;text-indent:5px;width:100%;padding-top:2px;}
+.block{display:block;}
+.link{color:white;margin-right:10px;}
+
+.Lanmu .LanmuBor{border:1px solid #0F51cf;height:24px;line-height:24px;width:98%;margin:0px auto;}
+.FenleiNew ul li {
+    height:36px;
+    line-height:36px;
+    text-indent:36px;
+    background: url('../../UploadFile/shareImg/lianming10_03.png') 0px 0px no-repeat;
+    font-family:"Microsoft YaHei";
+    cursor:pointer;
+}
+.FenleiNew ul li a{
+    height:36px;
+    line-height:36px;
+    display:block;
+    color:#000000;
+}
+.FenleiNew ul{height:252px;}
+.FenleiNew ul li a:hover{
+    color:#ff6a00;
+}
+.ProductGong{
+    padding-bottom:40px;
+    margin-left:30px;
+}
+.ProductGongBor .title{background-color:#144B83;color:white;margin-left:10px;height:30px;display:block;width:100px;text-align:center;line-height:30px;font-size:13px;}
+.ProductGongBor hr{height:2px;background-color:#144B83;border:0px;}
+.Product{width:177px;height:225px;float:left;margin-top:30px;margin-left:6px;cursor:pointer;}
+.Product:hover{background-color:#144B83;color:white;}
+.Product img{width:100%;height:auto;max-height:173px;}
+.Product>table{height:173px;width:100%;text-align:center;}
+.Product>span{line-height:53px;text-align:center;}
+
+.ProductDiv img{max-width:95%;}
+.ProductDiv{padding:20px 10px 0px 10px;}
+
+.newsUL{padding:0px 10px;}
+.newsUL li{line-height:30px;border-bottom:1px dashed #e1dddd;font-size:13px;}
+.newsUL li a{color:#454343;}
+.newsUL li a:hover{color:#ff6a00;}
+.ProductLink{color:#000;font-size:13px;}
+
+#Position{font-size:12px;margin-right:10px;}
+#Position a{color:#000;line-height:30px;}

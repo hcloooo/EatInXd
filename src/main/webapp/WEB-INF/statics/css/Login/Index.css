@@ -1,0 +1,33 @@
+*{padding:0px;margin:0px;font-family:'Microsoft JhengHei';}
+body{background:url(http://localhost:8080/Company/Mytools/images/bg.jpg);}
+#Login{opacity:0.9;position:absolute;top:50%;left:50%;width:450px;height:360px;margin-left:-225px;margin-top:-180px;background-color:white;border-radius:10px;}
+#Title{color:white;font-weight:bold;font-size:25px;line-height:50px;text-align:center;background-color:#97CE68;border-radius:10px 10px 0px 0px;}
+#Username,#Password,#ValidateCode{color:#000;border:1px solid #BDBAB4;line-height:54px;height:56px;border-radius:1px;font-size:15px;margin-bottom:10px;}
+#Username,#Password{width:100%;}
+#Username{background:white url(http://localhost:8080/Company/Mytools/images/username.png) no-repeat 0px 0px;text-indent:63px;}
+#Password{background:white url(http://localhost:8080/Company/Mytools/images/password.png) no-repeat 0px 0px;text-indent:63px;}
+#ValidateCode{text-indent:5px;}
+#ValidateCode{width:150px;margin-right:10px;}
+#submit{cursor:pointer;opacity:0.9;background-color:#0099CC;margin-top:10px;border:0px;width:360px;height:60px;line-height:60px;color:white;border-radius:5px;font-size:20px;letter-spacing:5px;font-weight:bold;}
+#LabRem{color:#000;font-size:15px;margin-left:5px;}
+#ValidateImg{position:relative;top:8px;cursor:pointer;margin-left:10px;}
+#submit:hover{opacity:1;}
+#LoginDiv{width:360px;margin:0px auto;margin-top:25px;height:230px;}
+#submitDiv{background-color:#EDEDE4;width:450px;text-align:center;height:80px;border-radius:0px 0px 10px 10px;}
+::-webkit-input-placeholder { /* WebKit browsers */  background-image: url('../../../../uploadfile/shareimg/password.png');
+color: #808080; 
+font-weight:600;
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #808080; 
+font-weight:600;
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #808080; 
+font-weight:600;
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #808080; 
+font-weight:600;
+} 
+#CopyRight{position:absolute;bottom:3px;text-align:center;width:100%;font-size:12px;}

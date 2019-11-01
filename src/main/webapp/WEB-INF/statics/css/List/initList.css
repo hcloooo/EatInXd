@@ -1,0 +1,191 @@
+body{
+    padding-left:10px;
+}
+/*������ʽ*/
+#div-search{
+    width:1000px;
+    height:32px;
+    line-height:32px;
+    margin:10px 0px 20px 0px;
+}
+#text-search{
+    height:30px;
+    border:1px solid #e8e4e4;
+    width:100px;
+}
+#text-search:focus{
+    border-color:red;
+}
+#div-search label{
+    font-size:13px;
+    margin-left:10px;
+}
+#div-search label:first-child{
+    margin-left:0px;
+}
+
+/*��������ʽ*/
+.select{
+    height:32px;
+    width:100px;
+    color:#000000;
+    background-color:#f7f6f6;
+    border:1px outset #C4C3C3;
+}
+
+
+#btn-search{
+    background-color:#fff;
+    border-radius:5px;
+    margin-left:10px;
+}
+/*�б���ʽ*/
+#tab-list{
+    text-align:center;
+    border-collapse:collapse;
+    background-color:#EAEDF1;
+    font-size:13px;
+    min-width:1000px;
+}
+#tab-list td{
+    height:30px;
+    border:1px solid #57b6b9;
+}
+.headimglist{
+    width:50px;
+    height:35px;
+    margin-top:5px;
+}
+#tab-list tr{cursor:pointer;}
+#tab-list tr:first-child{cursor:default;}
+/*���ӱ༭���*/
+#AddEditDiv{
+    background-color:white;
+    position:absolute;
+    left:50px;
+    top:50px;
+    z-index:9999;
+    border:1px solid #C4C3C3;
+}
+#AddEditDiv table{
+    border-collapse:collapse;
+}
+#AddEditDiv table td{
+    border:1px solid #E8EBEC;
+    padding:0px 5px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+/*������ť��ʽ*/
+.div-opr{
+    margin:10px 0px;
+}
+.btn-add,.btn-update,.btn-del,.btn-select{
+    
+}
+.btn-add:hover,.btn-update:hover,.btn-del:hover,.btn-select:hover{
+    
+    
+}
+.btn-add{
+
+}
+.btn-update{
+
+}
+.btn-del{
+
+}
+.btnDefaultOK{
+    border:1px solid #0099CC;
+    padding:5px 20px;
+    background-color:#F7F7F7;
+    cursor:pointer;
+}
+.width100{
+    color:#75664d;
+    font-size:13px;
+    width:100px;
+    text-align:right;
+}
+.inputStyle{
+    border:1px solid #C4C3C3;
+    width:200px;
+    height:30px;
+    line-height:30px;
+    text-indent:5px;
+}
+.textareaStyle{
+    margin-top:10px;
+    resize:none;
+    border:1px solid #C4C3C3;
+    width:400px;
+    height:80px;
+    line-height:30px;
+    text-indent:5px;
+}
+#AddEditOK{
+    background-color:#f7f3f3;
+    margin-right:20px;
+}
+#AddEditOK:hover{background-color:#0099CC;color:white;}
+#AddEditNo:hover{background-color:red;color:white;}
+.selectStyle{
+    border:1px solid #C4C3C3;
+    width:202px;
+    height:30px;
+    line-height:30px;
+}
+
+
+
+
+
+
+/*��ҳ��ʽ*/
+.select-size{
+    float:left;
+    height:30px;
+}
+.page-div-par{
+    margin:10px 0px;
+    height:30px;
+    margin:10px 0px 20px 0px;
+    width:1000px;
+}
+.page-div{
+    float:right;
+    height:30px;
+    
+}
+.btn-page-index{
+    background-color:white;
+    padding:0px 10px;
+    height:30px;
+    border:1px solid #999999;
+    float:left;
+    margin-left:2px;
+    text-align:center;
+    color:blue;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.btn-page-index:hover,.btn-page-last:hover,.btn-page-next:hover,.btn-page-prev:hover,.btn-page-first:hover{
+    background-color:#EBF2D3;
+    cursor:pointer;
+}
+.btn-page-last,.btn-page-next,.btn-page-prev,.btn-page-first{
+    cursor:pointer;
+    float:left;
+    margin-left:2px;
+    height:30px;
+    border:1px solid #999999;
+    background-color:white;
+    width:60px;
+    color:#999999;
+}

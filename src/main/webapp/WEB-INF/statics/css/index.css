@@ -1,0 +1,137 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+/*头部*/
+#b-lay-header{
+    width:100%;
+    height:50px;
+    background-color:#0099CC;
+    position:fixed;
+    left:0px;
+    right:0px;
+    z-index:50;
+}
+#b-lay-logo{
+    float:left;
+    line-height:50px;
+}
+#b-lay-logo img{
+    max-height:50px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    
+}
+#b-lay-logininfo{
+    float:right;
+}
+#b-lay-userinfo{
+    margin:0px 5px;
+    float:right;
+    line-height:50px;
+}
+#newMess{position:relative;top:6px;cursor:pointer;display:none;margin-right:20px;}
+/*左边*/
+#b-lay-left{
+    margin-top:50px;
+    width:30%;
+    float:left;
+    max-width:150px;
+    position:fixed;
+    left:0px;
+    right:0px;
+    overflow:auto;
+    background-color:#22282E;
+}
+/*#b-lay-menu-username{
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    display:block;
+    margin-top:15px;
+}*/
+
+#b-lay-menu-ul{
+    line-height:50px;
+    background-color:#22282E;
+    color:white;
+}
+#b-lay-menu-ul li{
+    cursor:pointer;
+}
+.b-lay-menu-ul-child li{
+	height:35px;
+    background-color:#293038;
+}
+.b-lay-menu-ul-child a {
+    color: #FFFAE8;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    background: url('/Company/Mytools/icon/folder_add.png') 25px 9px no-repeat;
+    text-indent:47px;
+}
+.b-lay-menu-ul-child li:hover{
+    background-color:#37424F;
+}
+.b-lay-menu-ul-child li{line-height:35px;}
+.menuname{display:block;background: url('/Company/Mytools/icon/folder.png') 15px 16px no-repeat;text-indent:37px;}
+.menuname:hover{
+    background-color:#37424F;
+}
+/*右边*/
+#b-lay-right{
+    
+}
+#b-lay-iframe{
+    width:100%;
+    height:100%;
+    overflow:auto;
+    position:relative;
+    top:50px;
+    background-color:white;
+}
+
+#b-lay-home-div{
+    line-height:30px;
+    background-color:#FFFAE8;
+    position:fixed;
+    left:0px;
+    top:50px;
+    width:100%;
+    height:30px;
+    z-index:2;
+}
+/*底部*/
+#b-lay-bottom{
+    clear:both;
+    width:100%;
+    height:50px;
+    background-color:#6BCBCA;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    z-index:50;
+    line-height:50px;
+    text-align:center;
+    color:white;
+}
+/*按钮仿样式*/
+.b-lay-link{
+    border:0px;
+    background-color:transparent;
+    color:white;
+    cursor:pointer;
+}
+.b-lay-link:hover{
+    text-decoration:underline;
+}

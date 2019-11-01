@@ -1,0 +1,21 @@
+﻿/*加载进度*/
+.w-loading-div{
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    background-color:gray;
+    z-index:10000;
+    opacity:0.3;
+}
+.w-loading-img{
+    width:56px;
+    height:48px;
+    position:fixed;
+    left:50%;
+    top:50%;
+    margin-left:-28px;
+    margin-top:-24px;
+    z-index:10001;
+}

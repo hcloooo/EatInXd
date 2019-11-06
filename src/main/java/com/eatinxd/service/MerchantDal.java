@@ -140,9 +140,7 @@ public class MerchantDal implements MerchantIdal {
 
     @Override
     public int deleteEntities(String id) {
-        if(id!=null&&id!=""){
 
-        }
         String sql="delete from Merchant where id=?";
         int num=0;
         parms =new ArrayList<>();

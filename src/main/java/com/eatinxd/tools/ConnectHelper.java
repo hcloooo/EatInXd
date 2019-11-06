@@ -3,11 +3,16 @@ import java.sql.*;
 import java.util.List;
 import com.eatinxd.tools.PageInfo;
 public class ConnectHelper {
-    //mysql数据库地址
+    //tent001--mysql 5.7
     private static final String url = "jdbc:mysql://106.53.4.55/eatinxd?useSSL=false&useUnicode=true&characterEncoding=UTF-8";
     private static final String driverName = "com.mysql.jdbc.Driver";
     private static final String userName = "root";
     private static final String password = "qq2016";
+    //aliNO1---mysql8--mysql8的驱动地址变了
+  /*  private static final String url = "jdbc:mysql://139.224.55.171/eatinxd?useSSL=false&useUnicode=true&characterEncoding=UTF-8";
+    private static final String driverName = "com.mysql.cj.jdbc.Driver";
+    private static final String userName = "root";
+    private static final String password = "qq2016";*/
     //sql server
     /*private final String driverName="com.microsoft.sqlserver.jdbc.SQLServerDriver";
     private final String url="jdbc:sqlserver://localhost:1433;DatabaseName=EatInXd";

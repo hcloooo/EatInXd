@@ -18,7 +18,7 @@
     %>
     <base href="<%=basePath%>">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Insert title here</title>
+    <title>商家管理</title>
 
     <link href="<%=basePath%>Mytools/css/loading.css" rel="stylesheet" />
     <link href="<%=basePath%>Mytools/css/alert.css" rel="stylesheet" />

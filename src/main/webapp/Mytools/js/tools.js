@@ -1,4 +1,4 @@
-var CIP="localhost:8080/EatInXd";
+var CIP = "http://127.0.0.1:8080/EatInXd";
 //正则替换script  并支持html css
 function myHtml(content) {
     content = MinGan2(content);
